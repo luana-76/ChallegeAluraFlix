@@ -1,0 +1,65 @@
+.background{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(../../../public/imagens/fundo.png);
+    background-position: center;
+    background-size: cover;
+    border-top: 3px solid #6BD1FF;
+    border-bottom: 3px solid #6BD1FF;
+    height: 130vh;
+    margin:0;
+
+}
+
+.mainAlignment{
+
+    align-items: center;
+    color: #c4c4c4;
+    display: flex;
+    flex-direction: row;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    padding: 27px 40.3px;
+    height: 100vh;
+
+}
+
+.h1Box{
+
+    align-items: center;
+    background: #6BD1FF;
+    border-radius: 4px;
+    display: flex;
+    height: 92px;
+    justify-content: center;
+    padding: 0 5px;
+    width: 296px;
+
+}
+
+main h1{
+
+    font-size: 60px;
+    font-weight: 400;
+    margin: 0;
+
+}
+
+h2{
+
+    color: #fff;
+    font-size: 46px;
+    font-weight: 400;
+    margin: 40px 0 9px 0;
+
+}
+
+p{
+
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0;
+
+}
+
+img[alt='video principal']{width: 45%;}

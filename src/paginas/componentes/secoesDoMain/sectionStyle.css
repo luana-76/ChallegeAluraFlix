@@ -1,0 +1,91 @@
+section .scroll{
+    
+    margin-bottom: 20px;
+    scroll-behavior: smooth;
+    overflow:hidden;
+
+}
+
+.scroll .inter{
+
+    display: flex;
+    font-family: 'Roboto',sans-serif;
+    margin-top: 20px;
+
+}
+
+img[alt='video secao']{
+
+    margin-left: 22px;
+    width: 380px;
+
+}
+img[alt='video secao']:nth-child(1){margin:0;}
+
+.sectionTitle{
+
+    align-items: center;
+    background: #69953b;
+    margin: 0 8px 0 0;
+    padding: 10px 0;
+    width: 207px;
+
+}
+
+.sectionTitle h3{
+    
+    color: #fff;
+    font-weight: 400;
+    font-size: 35px;
+    margin: 0;
+
+}
+
+section span{
+
+    color:#a3a3a3;
+    font-weight: 300;
+    font-size: 18px;
+    margin: auto 0;
+
+}
+
+/* Parte da estilização individual das sessões */
+
+.firstSection{
+
+    padding-left: 40.3px;
+    position: relative;
+    top: -130px;
+
+}
+
+.tree .sectionTitle{
+    
+    background: #FFBA05;
+    padding: 5px 10px;
+
+}
+
+.tree div{width: auto;}
+
+.two,
+.tree{
+
+    bottom: 70px;
+    font-family: 'Roboto',sans-serif;
+    position: relative;
+    padding-left: 40.3px;
+    
+}
+.two div,
+.tree div{display: flex;}
+
+.tree{
+
+    bottom: -0px;
+    margin-bottom: 94px;
+    position: relative;
+    padding-left: 40.3px;
+
+}
